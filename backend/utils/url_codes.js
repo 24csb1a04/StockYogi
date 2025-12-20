@@ -9,4 +9,5 @@ const urlcodes =  {
     "SENSEX"  : "sensex-4",
     "BSESENSEX" : "sensex-4"
 };
+
 export default urlcodes;
