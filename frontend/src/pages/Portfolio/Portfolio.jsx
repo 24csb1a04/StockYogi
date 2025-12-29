@@ -24,9 +24,9 @@ export default function Portfolio() {
       setLoading(true);
 
       const [valueRes, gainRes, holdingsRes] = await Promise.all([
-        axios.get("http://localhost:5000/api/portfolio/value", { withCredentials: true }),
-        axios.get("http://localhost:5000/api/portfolio/gain", { withCredentials: true }),
-        axios.get("http://localhost:5000/api/portfolio/all", { withCredentials: true }),
+        axios.get("<backend_endpoint>/api/portfolio/value", { withCredentials: true }),
+        axios.get("<backend_endpoint>/api/portfolio/gain", { withCredentials: true }),
+        axios.get("<backend_endpoint>/api/portfolio/all", { withCredentials: true }),
       ]);
 
       setTotalValue(valueRes.data.data);
@@ -107,3 +107,4 @@ export default function Portfolio() {
     </>
   );
 }
+
