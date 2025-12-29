@@ -16,7 +16,7 @@ export default function Newspage() {
   const fetchNews = async () => {
     try {
       setLoading(true);
-      const res = await axios.get("http://localhost:5000/api/news/news", {
+      const res = await axios.get("http://<backend_endpoint>/api/news/news", {
         withCredentials: true,
       });
 
@@ -65,3 +65,4 @@ export default function Newspage() {
     </>
   );
 }
+
