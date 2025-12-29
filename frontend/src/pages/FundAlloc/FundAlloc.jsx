@@ -28,7 +28,7 @@ export default function FundAlloc() {
       setResult(null);
 
       const res = await axios.get(
-        "http://localhost:5000/api/stocks/fundalloc",
+        "http://<backend_endpoint>/api/stocks/fundalloc",
         {
           params: { x: targetReturn },
         }
@@ -138,3 +138,4 @@ export default function FundAlloc() {
     </>
   );
 }
+
