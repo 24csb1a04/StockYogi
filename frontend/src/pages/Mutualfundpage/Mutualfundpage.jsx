@@ -25,7 +25,7 @@ export default function Mutualfundpage() {
       setStockData(null);
 
       const res = await axios.get(
-        `http://localhost:5000/api/stocks/mutualfund/${symbol}`,
+        `http://<backend_endpoint>/api/stocks/mutualfund/${symbol}`,
         { withCredentials: true }
       );
 
@@ -79,3 +79,4 @@ export default function Mutualfundpage() {
     </>
   );
 }
+
