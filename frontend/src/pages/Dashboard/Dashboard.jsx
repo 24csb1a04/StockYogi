@@ -27,7 +27,7 @@ export default function Dashboard() {
       ];
 
       const requests = names.map((name) =>
-        axios.get(`http://localhost:5000/api/stocks/index/${name}`, {
+        axios.get(`<backend_endpoint>/api/stocks/index/${name}`, {
           withCredentials: true,
         })
       );
@@ -106,3 +106,4 @@ export default function Dashboard() {
     </>
   );
 }
+
