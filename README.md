@@ -7,20 +7,20 @@ This project has the following features:
 3. An innovative mutual fund screener that suggests mutual fund porftolio with distribution based on user risk apetite.
 4. AI-Assistance for market sentiments and possible trends
    
-**Tech Stack**
+# Tech Stack
 
-Frontend: ReactJS
+**Frontend**: ReactJS
 
-Backend : ExpressJS
+**Backend** : ExpressJS
 
-Runtime Environment : NodeJS
+**Runtime Environment** : NodeJS
 
-Database : MongoDB
+**Database** : MongoDB
 
-**Project Architecture**
+# Project Architecture
 
 frontend: A React-App for all the frontend routes of the application
 
-backned : The main backend app containing all the routes of the application
+backend : The main backend app containing all the routes of the application. Implemented using NodeJs.
 
 data-api : An additional Flask backend for fetching stock/mutual fund data.
