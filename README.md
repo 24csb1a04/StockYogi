@@ -19,8 +19,9 @@ This project has the following features:
 
 # Project Architecture
 
-frontend: A React-App for all the frontend routes of the application
+**Frontend**: A React-App for all the frontend routes of the application
 
-backend : The main backend app containing all the routes of the application. Implemented using NodeJs.
+**Backend** : The main backend app containing all the routes of the application. Implemented using NodeJs.  
 
-data-api : An additional Flask backend for fetching stock/mutual fund data.
+**Python Backend** : A python backend to be used for fetching stock data using yfinance.  
+
